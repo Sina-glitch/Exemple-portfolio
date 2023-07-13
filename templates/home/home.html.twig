@@ -1,0 +1,172 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil
+{% endblock %}
+{% block stylesheets %}
+	{{ parent() }}
+	{{encore_entry_link_tags('home')}}
+{% endblock %}
+{% block javascripts %}
+	{{ encore_entry_script_tags('app') }}
+{% endblock %}
+
+{% block main %}
+
+	<section
+		class=".container-fluid h-100 ">
+
+		<!-- Home -->
+		
+		<div class="w-100 h-100 bg-dark position-relative">
+
+			<video autoplay loop muted src="ressources/mixkit-software-developer-working-while-drinks-coffee.mp4" class="position-absolute h-100 w-100"></video>
+			<div class="position-absolute w-100 h-100 bg-dark opacity-50"></div>
+			<div class="position-relative w-100 h-100 d-flex align-items-center justify-content-center flex-column pb-5">
+
+				<p class=" text-light mb-0">ETUDIANT BTS SIO</p>
+				<h1 class="text-center display-1 fw-bolder text-light">YANIS EL KAJJOUI
+				</h1>
+				<p class=" text-light mb-4">"Programmez-vous pour être libre et libérez-vous de la programmation"</p>
+			</div>
+
+		</div>
+		<!-- Section 2  à propos de moi -->
+
+		<section id="features" class="container-flex pb-5">
+
+			<h2 class="text-center display-4 mb-md-5 mb-3">MES QUALITES</h2>
+
+			<div class="row justify-content-center pt-4 pb-5 mt-md-5 mt-0">
+				<div class="col-3 d-flex flex-column align-items-center">
+					<div class="row justify-content-center">
+						<img src="ressources/chat.svg" alt="chat icon" class="col-4">
+					</div>
+					<h2 class="">Réactif</h2>
+					<p class="text-center">
+						<strong>La réactivité permet une résolution rapide des problèmes.</strong>
+					</p>
+				</div>
+
+
+
+				<div class="col-3 d-flex flex-column align-items-center">
+					<div class="row justify-content-center">
+						<img src="ressources/coding.svg" alt="coding icon" class="col-4">
+					</div>
+					<h2 class="">Persévérant</h2>
+					<p class="text-center">
+						<strong>La persévérance est un fait fastidieux et long parfois, mais qui est récompensée par la satisfaction d'avoir réussi dans le monde de la programmation.</strong>
+					</p>
+				</div>
+
+
+				<div class="col-3 d-flex flex-column align-items-center">
+					<div class="row justify-content-center">
+						<img src="ressources/transfer.svg" alt="transfer icon" class="col-4">
+					</div>
+					<h2 class="">Autonome</h2>
+					<p class="text-center">
+						<strong>L'autonomie permet de mettre des solutions en place sans avoir besoin d'être assisté.</strong>
+					</p>
+				</p>
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- Section 3 Mon Bts -->
+
+
+	<section class="border-wrapper border-top pb-5 mb-5">
+
+	<div id="bts" class="container">
+
+		<h2 class="text-center display-4 mt-md-5 mt-4">
+			LE BTS SIO
+		</h2>
+		<p class="text-dark mb-md-5 mb-4 text-center">(Services Informatiques aux Organisations)</p>
+
+		<div class="row g-3">
+
+			<div class="col-md-6">
+				<div class="card h-100 bg-dark text-white">
+					<div class="card-body">
+						<h2 class="card-title">Les différentes options du BTS SIO 🏆</h2>
+						<p class="card-text mt-3">Deux options sont possibles avec ce BTS : l'option Slam ou l'option Sisr.</p>
+						<a class="btn btn-outline-light" href="{{ path('bts_sio') }}"><i class="fa-solid fa-eye"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card h-100 bg-warning">
+					<div class="card-body">
+						<h2 class="card-title">Bloc de compétences</h2>
+						<p class="card-text">Consultez mon bloc de compétences réalisé de 2021 à 2023.</p>
+						<a class="btn btn-outline-light" href="{{ path('app_bloc_competence')}}"><i class="fa-solid fa-eye"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 mx-auto">
+				<div class="card h-100 bg-light">
+					<div class="card-body">
+					<h2 class="card-title">Mon Curriculum Vitae</h2>
+					<p class="card-text">Découvrez mon parcours et mes compétences en téléchargeant mon CV dès maintenant ! Cliquez sur le bouton ci-dessous pour y accéder et en savoir plus sur mon expérience professionnelle</p>
+					<a class="btn btn-outline-dark" href="ressources/CV.pdf" download><i class="fa-solid fa-download"></i></a>
+					<a class="btn btn-outline-dark" href="ressources/CV.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></i></a>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</section>
+
+
+	<!-- Section Stripe -->
+
+	<section class="bg-dark py-5 mt-5 d-flex flex-column justify-content-center align-items-center">
+		<h1 class="text-light display-3">Portfolio Junior</h1>
+	</section>
+
+	<!-- Section de mes projets -->
+
+	<section class="border-bottom">
+
+		<div class="container mb-5 pb-5 align-item-center">
+
+			<h2 class="text-center mt-md-5 mt-4 display-4">Les projets que j'ai pu réalisé au cours de mes deux années de BTS SIO</h2>	
+
+			<div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+
+				<div>
+					<div class="card">
+						<img src="ressources/Tesla-symbol.jpg" class="img-fluid" alt="Tesla">
+						<div class="card-body">
+							<h5 class="card-title">Clone du site de Tesla via Bootstrap 5</h5>
+							<p class="card-text">En cour...</p>
+							<a href="#" class="btn btn-primary"><i class="fa-solid fa-eye"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="card">
+						<img src="ressources/E-commerce.png" class="img-fluid" alt="E-Commerce">
+						<div class="card-body">
+							<h5 class="card-title">Site e-commerce Symfony
+							</h5>
+							<p class="card-text">En cour...</p>
+							<a href="#" class="btn btn-primary"><i class="fa-solid fa-eye"></i></a>
+						</div>
+					</div>
+				</div>
+
+		</div>
+	</section>
+	</div>
+</section>
+{% endblock %}

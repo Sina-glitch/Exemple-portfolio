@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Stages
+{% endblock %}
+{% block javascripts %}
+	{{ encore_entry_script_tags('app') }}
+{% endblock %}
+{% block main %}
+	<div class="px-4 pt-5 my-5 text-center border-bottom">
+		<h1 class="display-4 fw-bold">Alternance  BTS SIO</h1>
+		<div class="col-lg-6 mx-auto">
+			<p class="lead mb-4">Mon stage a été réalisé sur une période de deux ans aus sein de <a href="https://sudalys.fr/">Sudalys</a>, société spécialisée dans le conseil, l’audit et le contrôle des infrastructures télécoms pour le compte des collectivités locales et des opérateurs via le lien ci-joint vous accederez à mon
+				<a href="ressources/Contrat-apprentissage.pdf">contrat d'apprentissage</a>.</p>
+			<div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"></div>
+		</div>
+		<div class="overflow-hidden" style="max-height: 30vh;">
+			<div class="container px-5">
+				<img src="../ressources/Sudalys.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" width="700" height="500" loading="lazy">
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+

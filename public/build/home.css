@@ -1,0 +1,12 @@
+.global-container {
+  max-width: auto;
+  margin: auto;
+}
+video {
+  object-fit: cover;
+}
+.parallax-section {
+  background: url(/build/images/bright-laptop.2a9f387d.jpg) no-repeat bottom / cover fixed; min-height: 300px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaG9tZS5jc3MiLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlO0VBQ2YsWUFBWTtBQUNkO0FBQ0E7RUFDRSxpQkFBaUI7QUFDbkI7QUFDQTtFQUNFLGtGQUEyRixFQUFFLGlCQUFpQjtBQUNoSCxDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vYXNzZXRzL3N0eWxlcy9ob21lLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIuZ2xvYmFsLWNvbnRhaW5lciB7XG4gIG1heC13aWR0aDogYXV0bztcbiAgbWFyZ2luOiBhdXRvO1xufVxudmlkZW8ge1xuICBvYmplY3QtZml0OiBjb3Zlcjtcbn1cbi5wYXJhbGxheC1zZWN0aW9uIHtcbiAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi9wdWJsaWMvcmVzc291cmNlcy9icmlnaHQtbGFwdG9wLmpwZycpIG5vLXJlcGVhdCBib3R0b20gLyBjb3ZlciBmaXhlZDsgbWluLWhlaWdodDogMzAwcHg7XG59Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9*/

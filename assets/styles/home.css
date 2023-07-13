@@ -1,0 +1,10 @@
+.global-container {
+  max-width: auto;
+  margin: auto;
+}
+video {
+  object-fit: cover;
+}
+.parallax-section {
+  background: url('../../public/ressources/bright-laptop.jpg') no-repeat bottom / cover fixed; min-height: 300px;
+}
