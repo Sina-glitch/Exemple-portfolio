@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.timeline-content h2, .timeline-content h3 {
+  font-family: 'Saira Extra Condensed',serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+.timeline-content a {
+  color: #8d8d8d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.timeline-content h2 {
+  font-size: 3.5rem;
+}
+
+.timeline-content .date {
+  color: #9b0000;
+  font-size: 0.8rem;
+}
+
+.timeline-content .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timeline-content .mat-card-avatar {
+    border: 1px #8585854a solid;
+}
+.timeline-content h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed',serif;
+  font-size: 1.35rem;
+  color: #868e96;
+  margin-bottom: -5px;
+  margin-left: 15px;
+}
+
+.timeline-content {
+  background: white;
+  border-radius: 30px;
+  padding: 20px;
+}
