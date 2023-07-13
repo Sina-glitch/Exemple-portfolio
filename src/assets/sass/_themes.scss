@@ -1,0 +1,422 @@
+@use './base';
+
+/* ======================================================== */
+/* 404 */
+/* ======================================================== */
+
+.PageNotFound {
+  a {
+    border: base.$gb-d-border-0 double .8rem;
+
+    &:hover {
+      background-color: #fafafa;
+      color: #222;
+      border: #222 double .8rem;
+    }
+  }
+}
+
+/* ======================================================== */
+/* Game boy Dark theme*/
+/* ======================================================== */
+
+body {
+  background-color: base.$gb-d-bg-1;
+  border: base.$gb-d-border-0 solid .2rem;
+
+  video {
+    display: none;
+  }
+
+  h1,
+  h2,
+  p,
+  a,
+  li,
+  button {
+    color: base.$gb-d-ft-0;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  nav,
+  div.container {
+    border: base.$gb-d-border-0 solid .2rem;
+    border-radius: .12rem;
+  }
+
+  .SwitchMode:hover {
+    background-color: base.$gb-d-bg-hover;
+
+    p {
+      color: base.$gb-d-ft-hover;
+    }
+  }
+
+  main,
+  .NavBar {
+    background-color: base.$gb-d-bg-1;
+
+    .NavBar {
+      li {
+        &:hover {
+          color: base.$gb-d-ft-hover;
+        }
+
+        button {
+          background-color: base.$gb-d-bg-1;
+          color: base.$gb-d-ft-0;
+        }
+
+        button:focus {
+          background-color: base.$gb-d-border-0;
+          color: base.$gb-d-ft-hover;
+        }
+      }
+    }
+
+    .Portfolio {
+      li.portfolio-item {
+        border-top: .1rem solid base.$gb-d-border-0;
+
+        &:hover {
+          background-color: base.$gb-d-bg-hover;
+          color: base.$gb-d-ft-hover;
+
+          li.portfolio-techno-item,
+          ul.portfolio-link-list li a i,
+          p {
+            color: base.$gb-d-ft-hover;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ======================================================== */
+/* Light 2 theme*/
+/* ======================================================== */
+body.gb-light {
+  background-color: base.$gb-l-bg-1;
+  border: base.$gb-l-border-0 solid .4rem;
+
+  h1,
+  h2,
+  p,
+  a,
+  li,
+  button {
+    color: base.$gb-l-ft-0;
+  }
+
+  .Logo,
+  .TopBar,
+  .SwitchMode,
+  .NavBar,
+  .Home,
+  .Portfolio,
+  .Infos,
+  .LangSelect,
+  .BottomBar {
+    border: base.$gb-l-border-0 double .8rem;
+    border-radius: .12rem;
+  }
+
+  .SwitchMode:hover {
+    background-color: base.$gb-l-bg-hover;
+
+    p {
+      color: base.$gb-l-ft-hover;
+    }
+  }
+
+  main,
+  .NavBar {
+    background-color: base.$gb-l-bg-1;
+    background: none;
+
+    .NavBar {
+      li {
+        &:hover {
+          color: base.$gb-l-ft-hover;
+        }
+
+        button {
+          background-color: base.$gb-l-bg-1;
+          color: base.$gb-l-ft-0;
+          background: none;
+
+        }
+
+        button:focus {
+          background-color: base.$gb-l-border-0;
+          color: base.$gb-l-ft-hover;
+        }
+      }
+    }
+
+    .Home {
+      background-image: url("../images/wallpaper.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .Portfolio {
+      li.portfolio-item {
+        border-top: .1rem solid base.$gb-l-border-0;
+
+        &:hover {
+          background-color: base.$gb-l-bg-hover;
+          color: base.$gb-l-ft-hover;
+
+          li.portfolio-techno-item,
+          ul.portfolio-link-list li a i,
+          p {
+            color: base.$gb-l-ft-hover;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ======================================================== */
+/* Gruvbox Light 2 theme*/
+/* ======================================================== */
+body.gruvbox-light {
+  border: rgba(255, 255, 255, 0.25) solid .2rem;
+  background: url("../images/WallpaperDog-5447432.jpg");
+  background-size: cover;
+
+  video {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  h1,
+  h2,
+  p,
+  a,
+  li,
+  button {
+    color: #fafafa;
+  }
+
+  .Logo,
+  .TopBar,
+  .SwitchMode,
+  .NavBar,
+  .Home,
+  .Portfolio,
+  .Infos,
+  .LangSelect,
+  .BottomBar {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  .SwitchMode:hover {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: #222;
+  }
+
+  main {
+    flex-direction: column;
+
+    nav {
+      ul {
+        flex-direction: row;
+      }
+    }
+
+    div.container {
+      height: 100%;
+    }
+  }
+
+  main,
+  .NavBar {
+    background: none;
+
+    .NavBar {
+
+      border: none;
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: rgba(17, 25, 40, 0.75);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.125);
+
+      li {
+        &:hover {
+          color: base.$gb-l-ft-hover;
+        }
+
+        button {
+          background: none;
+          color: #fafafa;
+        }
+
+        button:focus {
+          background: rgba(255, 255, 255, 0.4);
+          backdrop-filter: blur(4px);
+          -webkit-backdrop-filter: blur(4px);
+          color: #222;
+        }
+
+        button:hover {
+          background: rgba(255, 255, 255, 0.4);
+          backdrop-filter: blur(4px);
+          -webkit-backdrop-filter: blur(4px);
+          color: #222;
+        }
+      }
+
+      li:nth-child(1) button {
+
+        &:hover,
+        &:focus {
+          border-radius: 12px 0 0 12px;
+        }
+      }
+
+      li:nth-child(3) button {
+
+        &:hover,
+        &:focus {
+          border-radius: 0 12px 12px 0;
+        }
+
+      }
+    }
+
+    .Home h2 {
+      color: base.$gruvbox-l-ft-red;
+    }
+
+    .Portfolio {
+      li.portfolio-item {
+        border-top: .1rem solid rgba(255, 255, 255, 0.4);
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.4);
+          backdrop-filter: blur(4px);
+          -webkit-backdrop-filter: blur(4px);
+          color: #222;
+
+          li.portfolio-techno-item,
+          ul.portfolio-link-list li a i,
+          p {
+            color: #222;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ======================================================== */
+/* Gruvbox dark 2 theme*/
+/* ======================================================== */
+body.gruvbox-dark {
+  background-color: base.$gruvbox-d-bg-1;
+  border: base.$gruvbox-d-border-0 solid .1rem;
+
+  h1,
+  h2,
+  p,
+  a,
+  li,
+  button {
+    color: base.$gruvbox-d-ft-0;
+  }
+
+  .Logo,
+  .TopBar,
+  .SwitchMode,
+  .NavBar,
+  .Home,
+  .Portfolio,
+  .Infos,
+  .LangSelect,
+  .BottomBar {
+    background-color: base.$gruvbox-d-bg-1;
+    border: base.$gruvbox-d-border-0 solid .1rem;
+  }
+
+  .SwitchMode:hover {
+    background: base.$gruvbox-d-bg-hover;
+
+    p {
+      color: base.$gruvbox-d-ft-hover;
+
+    }
+  }
+
+  main,
+  .NavBar {
+    background-color: base.$gruvbox-d-bg-1;
+
+    .NavBar {
+      background-color: base.$gruvbox-d-bg-1;
+      color: base.$gruvbox-d-ft-1;
+
+      li {
+
+        button {
+          background-color: base.$gruvbox-d-bg-1;
+          color: base.$gruvbox-d-ft-1;
+        }
+
+        button:focus {
+          background: base.$gruvbox-d-bg-hover;
+          color: base.$gruvbox-d-ft-hover;
+        }
+
+        cursor: pointer;
+
+        button:hover {
+          background: base.$gruvbox-d-bg-hover;
+          color: base.$gruvbox-d-ft-hover;
+        }
+      }
+    }
+
+    .Home h2 {
+      color: base.$gruvbox-d-ft-red;
+    }
+
+    .Portfolio {
+      li.portfolio-item {
+        border: base.$gruvbox-d-border-0 solid .1rem;
+
+        &:hover {
+          background: base.$gruvbox-d-bg-hover;
+          color: base.$gruvbox-d-ft-hover;
+
+          li.portfolio-techno-item,
+          ul.portfolio-link-list li a i,
+          p {
+            color: base.$gruvbox-d-ft-hover;
+
+          }
+        }
+      }
+    }
+  }
+}

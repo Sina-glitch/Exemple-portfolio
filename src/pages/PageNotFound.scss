@@ -1,0 +1,27 @@
+.PageNotFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Press Start 2P', cursive;
+
+    h1 {
+        font-size: 12rem;
+        font-family: 'MrRobot', monospace;
+        font-weight: 100;
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-family: 'Press Start 2P', cursive;
+
+    }
+
+    a {
+        font-size: 1.6rem;
+        font-family: 'Press Start 2P', cursive;
+        margin: 1.2rem;
+        padding: 1.2rem 2.4rem;
+    }
+}

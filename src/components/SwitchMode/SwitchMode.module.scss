@@ -1,0 +1,28 @@
+.SwitchMode {
+    width: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        font-weight: bolder;
+        cursor: pointer;
+
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .SwitchMode {
+width: 100%;
+    }
+}

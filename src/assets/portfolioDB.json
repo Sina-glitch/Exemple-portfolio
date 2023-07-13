@@ -1,0 +1,105 @@
+{
+    "portfolio": [
+        {
+            "title": "Periclim",
+            "technologies": [
+                "react",
+                "nodejs"
+            ],
+            "technologiesDevIconsClass": [
+                "devicon-react-original",
+                "fa fa-nodejs"
+            ],
+            "github": "https://github.com/NicoLarson/periclim",
+            "link": "https://nicolarson.github.io/periclim/",
+            "year": 2022
+        },
+        {
+            "title": "GPSS",
+            "technologies": [
+                "html",
+                "css",
+                "js"
+            ],
+            "technologiesDevIconsClass": [
+                "devicon-html5-plain",
+                "devicon-css-plain",
+                "devicon-javascript-plain"
+            ],
+            "github": "https://github.com/NicoLarson/gpss ",
+            "link": "https://gpss-securite.com ",
+            "year": 2022
+        },
+        {
+            "title": "Projet Harpie",
+            "technologies": [
+                "symfony",
+                "postgresql"
+            ],
+            "technologiesDevIconsClass": [
+                "devicon-symfony-original",
+                "devicon-postgresql-plain"
+            ],
+            "github": "https://github.com/NicoLarson/Harpie ",
+            "link": 0,
+            "year": 2022
+        },
+        {
+            "title": "Astro React",
+            "technologies": [
+                "react"
+            ],
+            "technologiesDevIconsClass": [
+                "devicon-react-original",
+                "fa fa-nodejs"
+            ],
+            "github": "https://github.com/NicoLarson/astro-react ",
+            "link": "https://nicolarson.github.io/astro-react/",
+            "year": 2022
+        },
+        {
+            "title": "Anticipation of sunshine",
+            "technologies": [
+                "python"
+            ],
+            "technologiesDevIconsClass": [
+                "devicon-python-plain",
+                "fa fa-file-excel-o"
+            ],
+            "github": "https://github.com/NicoLarson/anticipation-of-sunshine ",
+            "link": 0,
+            "year": 2022
+        },
+        {
+            "title": "Chatbot FAQ",
+            "technologies": [
+                "php",
+                "js",
+                "json",
+                "sql"
+            ],
+            "technologiesDevIconsClass": [
+                "devicon-php-plain",
+                "devicon-javascript-plain",
+                "devicon-mysql-plain"
+            ],
+            "github": "https://github.com/NicoLarson/chatbot-faq ",
+            "link": 0,
+            "year": 2021
+        },
+        {
+            "title": "Premier Blog",
+            "technologies": [
+                "symfony",
+                "mysql"
+            ],
+            "technologiesDevIconsClass": [
+                "devicon-symfony-original",
+                "devicon-mysql-plain"
+            ],
+            "github": "https://github.com/NicoLarson/Premier_Blog ",
+            "link": 0,
+            "year": 2020
+        }
+    ]
+}
