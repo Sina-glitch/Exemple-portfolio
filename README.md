@@ -1,61 +1,22 @@
-<p align="center">
-  <img src="https://atroposjs.com/images/share-banner.png"/>
-</p>
+# Portfolio 3D
 
-# Atropos
+Clône du portfolio de [David HCKH](https://david-hckh.com/) en React, Three.js et TypeScript
 
-Atropos is a lightweight, free and open-source JavaScript library to create stunning touch-friendly 3D parallax hover effects.
+Fait en stream sur [Twitch](https://www.twitch.tv/console_buche)
 
-Available for JavaScript, React and as a Web Component
+## Installation
 
-## Community
+### Pré-requis
 
-The Atropos community can be found on [GitHub Discussions](https://github.com/nolimits4web/atropos/discussions), where you can ask questions, voice ideas, and share your projects
+- NodeJS
 
-Our [Code of Conduct](https://github.com/nolimits4web/atropos/blob/master/CODE_OF_CONDUCT.md) applies to all Atropos community channels.
+### Lancer le projet
 
-## Dist / Build
-
-On production use files (JS and CSS) only from `package/` folder, there will be the most stable versions, `build/` folder is only for development purpose.
-
-### Development Build
-
-Install all dependencies, in repo's root:
+Dans le terminal
 
 ```
-
-$ npm install
-
+npm install
+npm run dev
 ```
 
-And build development version of Atropos:
-
-```
-
-$ npm run build:dev
-
-```
-
-The result is available in `build/` folder.
-
-### Running demos:
-
-All demos located in `./playground` folder. There you will find Core (HTML, JS), React and Angular versions.
-To open demo, run:
-
-- **Core**: `npm run core`
-- **React**: `npm run react`
-
-### Production Build
-
-```
-
-$ npm run build:prod
-
-```
-
-Production version will available in `package/` folder.
-
-## Contributing
-
-All changes should be committed to `src/` files only. Before you open an issue please review the [contributing](https://github.com/nolimits4web/atropos/blob/master/CONTRIBUTING.md) guideline.
+Puis aller sur son navigateur [http://localhost:3000](http://localhost:3000)
