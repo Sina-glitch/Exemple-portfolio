@@ -1,0 +1,4 @@
+[submodule "MonTemplatePortfolio"]
+	path = themes/MonTemplatePortfolio
+	url = https://github.com/ELO-I/MonTemplatePortfolio
+
