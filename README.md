@@ -7,5 +7,3 @@
 
 
 ### Jeter un coup d'œil à [mon profil github](https://github.com/Sina-glitch) :eyes:
-
-
