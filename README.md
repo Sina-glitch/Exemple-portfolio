@@ -1,12 +1,11 @@
 # <p align="center"> ```Ayoub_Belbachir``` (ᵔᴥᵔ) </p>
 
- ### bienvenu sur le depôt officiel de [mon portfolio](https://ay-belbachir.github.io/portefolio_Ayoub_Belbachir_SIO_SISR/)
-**Tout changement sera automatiquement upload** sur [mon site officiel](https://ayoubbelbachirsisr.fr/) grâce à un webhook, heberger par hostinger 🔵
+ ### bienvenu sur le depôt officiel de [mon portfolio](https://sina-glitch.github.io/Exemple-portfolio/)
 
  <p align="center"> <img src="https://github.com/ay-belbachir/ay-belbachir/blob/main/spotify-now/chart.png" width="200" height="whatever"> </p>
 
 
 
-### Jeter un coup d'œil à [mon profil github](https://github.com/ay-belbachir) :eyes:
+### Jeter un coup d'œil à [mon profil github](https://github.com/Sina-glitch) :eyes:
 
 
