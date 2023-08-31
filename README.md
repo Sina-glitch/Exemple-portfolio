@@ -2,7 +2,7 @@
 
  ### bienvenu sur le depôt officiel de [mon portfolio](https://sina-glitch.github.io/Portfolio-de-Sina/)
 
- <p align="center"> <img src="https://github.com/ay-belbachir/ay-belbachir/blob/main/spotify-now/chart.png" width="200" height="whatever"> </p>
+ <p align="center"> <img src="img/qr-code-site-Sina.png" width="200" height="whatever"> </p>
 
 
 
